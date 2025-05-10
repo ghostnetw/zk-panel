@@ -1,25 +1,62 @@
-# Installation
-<!-- INSTALL THE ESX.SQL IF YOU USE ESX -->
-Installation of zkadmin is simple, and involves drag-and-dropping the resource as well as some basic configuration.
+# Zk-Panel 🛡️🎮
 
-## Extract Resource to Server Files
-Extract the resource to the server files directory.
+A powerful admin panel for FiveM/GTA V servers, built with modern UI and extensive features.
 
-## Install the following resource to make the screenshots work https://github.com/jaimeadf/discord-screenshot
-## THIS RUNS ALONGSIDE SCREENSHOT-BASIC
+## Features 🚀
 
-# ADMINMENU DOES NOT OPEN, WHAT NOW??
-BE SURE TO CHANGE YOUR group.admin PRINCIPAL INSIDE YOUR SERVER.CFG TO qbcore.god SO IT LOOKS LIKE THIS
-add_principal identifier.fivem:xxxxxx qbcore.god
+- 🎮 Admin Actions Interface
+- 🎯 Player Management
+- 📊 Server Statistics
+- 🌐 Multi-language Support (English, German, Dutch)
+- 🤖 Compatibility with QBCore
+- 🎥 NoClip System
+- 🛠️ Customizable Configuration
 
-# HOW TO SWITCH FROM QBCORE TO ESX MODE
-Open the fxmanifest.lua and comment the line that contains 'compat/qbcore.lua' and uncomment the line that contains 'compat/esx18.lua'
+## Installation 🛠️
 
+1. 📦 Download the resource
+2. 📁 Place it in your resources folder
+3. ✍️ Edit `config.lua` for your preferences
+4. 🔄 Restart your server
 
-## Configuration
+## Structure 🗂️
 
-Edit the file _config.lua_ to your liking.
+- `client/` - Client-side scripts
+- `server/` - Server-side scripts
+- `html/` - Web interface files
+- `locales/` - Language files
+- `json/` - Configuration files
+- `compat/` - Compatibility scripts
 
-## Add Resource to server.cfg or resources.cfg
+## Requirements 📋
 
+- FiveM
+- GTA V
+- QBCore (optional)
+- Latest FiveM version
 
+## Usage 🎮
+
+1. Log in to your admin account
+2. Access the panel through the command or keybind
+3. Use the intuitive interface to manage your server
+
+## Support 💬
+
+For support, please contact the author or check the documentation.
+
+## License 📄
+
+This project is protected by escrow and should not be redistributed without permission.
+
+## Credits 🌟
+
+Created by ghostnetw
+
+---
+
+⭐ Star this repository if you find it useful!
+
+[![GitHub stars](https://img.shields.io/github/stars/ghostnetw/zk-panel.svg?style=social)](https://github.com/ghostnetw/zk-panel)
+
+---
